@@ -135,6 +135,13 @@ body {
 /*------main-----*/
 .hero {
   background-color: #2f303a;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
