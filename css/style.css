@@ -211,9 +211,14 @@ body {
 .uh-link {
   width: 100%;
   height: 100%;
-  display: block;
   background-color: var(--background-team);
   margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-uh {
 }
 
 .uh-section {
@@ -408,7 +413,7 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: var(--main-text-color);
+  background-color: var(--second-text-color);
   display: flex;
   align-items: center;
   justify-content: center;
