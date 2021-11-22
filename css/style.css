@@ -5,6 +5,7 @@
   --active-text-color: #2196f3;
   --main-button-color: #2196f3;
   --background-team: #f5f4fa;
+  --icon-socialnetwork-color: #afb1b8;
 }
 p,
 h1,
@@ -403,6 +404,10 @@ body {
   border-radius: 50%;
   margin-top: 16px;
   background-color: var(--main-text-color);
+}
+
+.icon-socialnetwork {
+  fill: var(--icon-socialnetwork-color);
 }
 
 /*---our-custumers---*/
