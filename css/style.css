@@ -450,12 +450,31 @@ body {
 
 .section-footer {
   padding: 60px 0;
+  display: flex;
 }
 
 .container-footer {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+}
+
+.footer-socialnetworks-list {
+  display: flex;
+}
+
+.container-footer-socialnetwork {
+  width: 206px;
+  height: 80px;
+  margin-left: 70px;
+}
+
+.footer-socialnetwork-text {
+  width: 145px;
+  height: 16px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
 }
 
 .footer-logo {
@@ -465,7 +484,9 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
-  padding-bottom: 20px;
+}
+.adress-footer {
+  margin-top: 20px;
 }
 
 .logo-color-footer {
