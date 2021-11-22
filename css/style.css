@@ -442,6 +442,9 @@ body {
 
 /*---our-custumers---*/
 
+.container-custumers {
+}
+
 .custumers-text {
   width: 390px;
   height: 42px;
@@ -459,8 +462,6 @@ body {
 
 .custumers-list {
   display: flex;
-  margin-top: 50px;
-  margin-bottom: 94px;
 }
 
 .custumers-list-item {
