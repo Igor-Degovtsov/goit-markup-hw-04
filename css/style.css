@@ -142,6 +142,7 @@ body {
     url(../images/hero-background.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -206,6 +207,13 @@ body {
 }
 
 /*under-hero*/
+.uh-link {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: var(--background-team);
+  margin-bottom: 30px;
+}
 
 .uh-section {
   display: flex;
@@ -234,6 +242,9 @@ body {
 .work-item-picture:not(last child),
 .uh-title-list:not(last child) {
   margin-right: 30px;
+}
+.uh-title-list {
+  margin-bottom: 94px;
 }
 
 /*work*/
