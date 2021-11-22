@@ -103,9 +103,19 @@ body {
   letter-spacing: 0.02em;
 }
 
-.header-contacts :hover,
-.header-contacts :focus {
+.header-contact:hover,
+.header-contact:focus {
   color: var(--active-text-color);
+}
+
+.icon-contact {
+  fill: var(--main-text-color);
+  margin-right: 10px;
+}
+
+.header-contact:hover .icon-contact,
+.header-contact:focus .icon-contact {
+  fill: var(--active-text-color);
 }
 
 .header-contact {
