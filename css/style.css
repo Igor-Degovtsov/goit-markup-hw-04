@@ -292,7 +292,7 @@ body {
   padding-right: 8px;
 }
 
-/*our-works*/
+/*---our-works---*/
 
 .work-portfolio {
   display: flex;
@@ -333,7 +333,7 @@ body {
   color: var(--main-text-color);
   padding-top: 4px;
 }
-/*team*/
+/*---team---*/
 .team-list {
   display: flex;
 }
@@ -405,7 +405,45 @@ body {
   background-color: var(--main-text-color);
 }
 
-/*footer*/
+/*---our-custumers---*/
+
+.custumers-text {
+  width: 390px;
+  height: 42px;
+  left: 606px;
+  top: 2401px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+.custumers-list {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 94px;
+}
+
+.custumers-list-item {
+  width: 170px;
+  height: 92px;
+}
+
+.custumers-link {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: var(--main-text-color);
+}
+.custumers-list-item:not(last child) {
+  margin-right: 30px;
+}
+
+/*---footer---*/
 .footer {
   background-color: #2f303a;
 }
