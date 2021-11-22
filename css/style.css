@@ -512,6 +512,7 @@ body {
 
 .footer-socialnetworks-list {
   display: flex;
+  margin-top: 20px;
 }
 
 .container-footer-socialnetwork {
@@ -528,6 +529,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.icon-socialnetwork-footer {
+  fill: var(--background-team);
+}
+
+.socialnetworks-footer:hover,
+.socialnetworks-footer:focus {
+  background: var(--main-button-color);
 }
 
 .footer-socialnetwork-text {
