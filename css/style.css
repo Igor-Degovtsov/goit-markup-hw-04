@@ -458,6 +458,7 @@ body {
 
 .custumers-list {
   display: flex;
+  margin-top: 50px;
 }
 
 .custumers-list-item {
