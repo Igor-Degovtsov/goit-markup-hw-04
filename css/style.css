@@ -311,7 +311,9 @@ body {
 }
 
 .work-portfolio-link {
-  padding-right: 30px;
+  flex-basis: calc((100% - 3 * 30px) / 3);
+  padding-left: 30px;
+  padding-top: 30px;
   display: block;
 }
 
@@ -323,13 +325,6 @@ body {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.work-portfolio-link:nth-child(3n) {
-  padding-right: 0px;
-}
-
-.work-portfolio-link:nth-child(-n + 6) {
-  padding-bottom: 30px;
-}
 .description-works {
   padding: 20px 24px;
   background: #ffffff;
