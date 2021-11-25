@@ -301,6 +301,12 @@ body {
 }
 
 /*---our-works---*/
+
+.portfolio-our-works {
+  width: 370px;
+  height: 404px;
+}
+
 .link-portfolio {
   display: block;
 }
@@ -308,10 +314,12 @@ body {
 .work-portfolio {
   display: flex;
   flex-wrap: wrap;
+  margin-left: -30px;
+  margin-bottom: -30px;
 }
 
 .work-portfolio-link {
-  flex-basis: calc((100% - 3 * 30px) / 3);
+  flex-basis: calc((100% - 3 * 29px) / 3);
   padding-left: 30px;
   padding-top: 30px;
   display: block;
