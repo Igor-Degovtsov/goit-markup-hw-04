@@ -222,10 +222,11 @@ body {
   width: 100%;
   height: 100%;
   background-color: var(--background-team);
-  margin-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 270px;
+  height: 120px;
 }
 
 .uh-list {
@@ -238,7 +239,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--accent-text-color);
-  margin-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .uh-item {
@@ -250,10 +252,7 @@ body {
 
 .work-item-picture:not(last child),
 .uh-title-list:not(last child) {
-  margin-right: 30px;
-}
-.uh-title-list {
-  margin-bottom: 94px;
+  padding-right: 30px;
 }
 
 /*work*/
@@ -302,6 +301,9 @@ body {
 }
 
 /*---our-works---*/
+.link-portfolio {
+  display: block;
+}
 
 .work-portfolio {
   display: flex;
@@ -309,15 +311,24 @@ body {
 }
 
 .work-portfolio-link {
-  margin-right: 30px;
+  padding-right: 30px;
+  display: block;
+}
+
+.link-portfolio:hover,
+.link-portfolio:focus {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .work-portfolio-link:nth-child(3n) {
-  margin-right: 0px;
+  padding-right: 0px;
 }
 
 .work-portfolio-link:nth-child(-n + 6) {
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 .description-works {
   padding: 20px 24px;
@@ -438,9 +449,6 @@ body {
 
 /*---our-custumers---*/
 
-.container-custumers {
-}
-
 .custumers-text {
   width: 390px;
   height: 42px;
@@ -477,13 +485,13 @@ body {
   justify-content: center;
 }
 
-.custumers-link:hover,
-.custumers-link:focus {
+.custumers-link:focus,
+.custumers-link:hover {
   border: 1px solid var(--main-button-color);
 }
 
 .custumers-link:hover .icon-custumers,
-.custumers-link:focus .icon-custumersk {
+.custumers-link:focus .icon-custumers {
   fill: var(--main-button-color);
 }
 
